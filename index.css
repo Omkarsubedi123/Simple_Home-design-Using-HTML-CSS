@@ -1,7 +1,16 @@
 .container {
   height: 100vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  display: flex;
+}
+.containerfrs {
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
   padding-top: 20px;
@@ -45,3 +54,34 @@
   top: 55px;
   left: 50px;
 }
+
+/* .secContainer {
+  position: relative;
+  border: 2px solid black;
+  height: 100vh;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+.tree {
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 40px solid green;
+  position: absolute;
+}
+.frs {
+  z-index: 3;
+  top: 60px;
+}
+.sec {
+  z-index: 2;
+  top: 30px;
+}
+.thr {
+  z-index: 1;
+} */
+/* .containers {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+} */
